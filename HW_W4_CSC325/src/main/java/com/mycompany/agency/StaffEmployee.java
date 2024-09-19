@@ -27,7 +27,11 @@ public class StaffEmployee
     //-----------------------------------------------------------------
     public String toString()
     {
-    
+       String result = super.toString();
+       result += "\nSocial Security Number: " + socialSecurityNumber;
+       result += "\nPay Rate: " + payRate;
+        
+       return result;
     }
 
     //-----------------------------------------------------------------
@@ -35,6 +39,6 @@ public class StaffEmployee
     //-----------------------------------------------------------------
     public double pay()
     {
-       
+       return payRate;
     }
 }
