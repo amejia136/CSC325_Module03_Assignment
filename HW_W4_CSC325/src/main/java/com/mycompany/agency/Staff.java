@@ -39,7 +39,7 @@ public class Staff
         {
             System.out.println(staffList[count]);
 
-            amount = staffList[count].pay();  // polymorphic
+            amount = staffList[count].pay();  
 
             if (amount == 0.0)
                 System.out.println("Thanks!");
